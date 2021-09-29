@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.service.StudentServiceTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.144 s <<< FAILURE! - in com.example.demo.service.StudentServiceTests
+getStudentsTest  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <9223372036854775807>
+	at com.example.demo.service.StudentServiceTests.getStudentsTest(StudentServiceTests.java:37)
+
